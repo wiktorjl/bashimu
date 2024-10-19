@@ -28,7 +28,7 @@ echo "Creating ~/.bashimurc file"
 echo "#!/bin/sh" > ~/.bashimurc
 echo "export OPENAI_API_KEY=\"\"" >> ~/.bashimurc
 echo "export OPENAI_MODEL_NAME=\"gpt-4o-mini\"" >> ~/.bashimurc
-echo "alias ?=\"/usr/local/bin/bashimu\"" >> ~/.bashimurc
+echo "alias ?=\"/usr/local/bin/bashimu.sh\"" >> ~/.bashimurc
 
 echo "Adding source ~/.bashimurc to ~/.bashrc"
 echo "source ~/.bashimurc" >> ~/.bashrc

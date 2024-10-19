@@ -2,26 +2,24 @@
 
 ### About
 BASHIMU is a simple bash script to interact with OpenAI's ChatGPT models.
-
+It allows you to ask a question in the command line and get a one-liner response as a result.
 
 
 ### Setup
-In order to use it, you need to set ```$OPENAI_API_KEY``` to your own private key.
+The simplest way to get started is to run the ```bashimu_setup.sh``` script. It will set up the following variables:
 
-You can also set ```$OPENAI_MODEL_NAME``` to the specific model you want to use.
+```
+$OPENAI_API_KEY - your private key
+$OPENAI_MODEL_NAME - the default OpenAI model to be used
+```
 
-Optionally, you can alias ```bashimu.sh``` to something simpler: ```alias ?=/home/user/bin/bashimu.sh```
-
-This will allow you to type ```? your question```.
-
-Best to do this in you shell's config file, like ```~/.bashrc```.
-
-
+It will also ask you where to deploy the script, adjust the PATH accordingly, and set up ```?``` as an alias for ```bashimu.sh```.
+Please view the script's source code before you run it so you know what it is doing.
 
 ### Usage:
-Executing a query: ```./bashimu.sh your query``` or ```? your query```
+Executing a query: ```? get current time```
 
-Executing the last suggested command: ```./bashimu.sh !``` or ```? !```
+Executing the last suggested command: ```? !```
 
 
 ### Demo:

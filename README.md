@@ -1,4 +1,5 @@
 <img src="img/bashimu.jpeg" alt="drawing" width="200"/>
+
 ### About
 BASHIMU is a simple bash script to interact with OpenAI's ChatGPT models.
 

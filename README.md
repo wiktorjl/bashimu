@@ -7,7 +7,9 @@ It allows you to ask a question in the command line and get a one-liner response
 
 ### Setup
 The simplest way is to use the deployment script:
+
 ```curl -s https://raw.githubusercontent.com/wiktorjl/bashimu/refs/heads/main/deploy.sh  | sh```
+
 
 Otherwise, clone this repository and run ```bashimu_setup.sh``` script. It will set up the following variables:
 

@@ -22,7 +22,7 @@
 
 # Check if OPENAI_API_KEY is set
 if [ -z "$OPENAI_API_KEY" ]; then
-    echo "Please set the OPENAI_API_KEY environment variable."
+    echo "Please set the OPENAI_API_KEY environment variable in ~/.bashimurc."
     exit 1
 fi
 

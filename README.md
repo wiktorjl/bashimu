@@ -21,3 +21,7 @@ Best to do this in you shell's config file, like ```~/.bashrc```.
 Executing a query: ```./bashimu.sh your query``` or ```? your query```
 
 Executing the last suggested command: ```./bashimu.sh !``` or ```? !```
+
+
+### Demo:
+<img src="img/bashimu_demo_2x.gif" width="800"/>

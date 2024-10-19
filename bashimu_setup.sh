@@ -90,6 +90,7 @@ if [ -n "$1" ]; then
 else
   cp -v bashimu.sh $script_dir/bashimu.sh
 fi
+chmod +x $script_dir/bashimu.sh
 echo
 
 # Source the config file

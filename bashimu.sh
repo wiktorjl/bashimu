@@ -98,13 +98,12 @@ json=$(curl "https://api.openai.com/v1/chat/completions" \
 
 
 # Extract the response from the JSON
-response=$(echo $json | jq -r '.choices[0].message.content')
+response=$(echo "$json" | jq -r '.choices[0].message.content')
 
 # Log question and response to a log file
-echo "Q: $query_str" >> ~/.bashimu.log
-echo "A: $response" >> ~/.bashimu.log
-
+echo -E "Q: $query_str" >> ~/.bashimu.log
+echo -E "A: $response" >> ~/.bashimu.log
 
 # Print the response
-echo $response
+echo -E "$response"
 
